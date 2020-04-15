@@ -1,0 +1,6 @@
+1-  Con respecto a mi solución, lo que mas me hace ruido es dejar que la entidad "Usuario" sea el encargado de validar las prendas.
+    No estaba muy seguro de agregar alguna entidad (como por ejemplo "Aplicacion") que contenga a los usuarios y se encargue tambien,
+    de validar si con los datos pasados, se puede crear una prenda.
+2-  (Aclaración): Tome la decision de que TipoPrenda tenga un atributo categoria porque:
+  - Principalmente porque la categoria depende del tipo de prenda
+  - Ademas para evitar que Prenda al tener ambos atributos, puedan haber tipos de prendas que no concuerden con la categoria.
